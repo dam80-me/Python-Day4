@@ -7,9 +7,9 @@ def long_task_threaded():
     print("Long task: Finished!")
 
 def short_task_threaded():
-    print("Short task: Running quickly.)")
+    print("Short task: Running quickly in main programme.")
     time.sleep(0.5) # Simulate a small delay
-    print("Short task: Finished in main programm.")   
+    print("Short task: Finished in main programme.")   
 
 print("--- Program WITH Threads ---")
 # 1. Create a new thread to run our long task
